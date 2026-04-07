@@ -2,7 +2,7 @@
 Architected a fully cloud-native image identification system using Python on Amazon EC2, storing image data in Amazon S3, and leveraging Amazon Rekognition to generate labeled bounding boxes with confidence scores; visualized detection results using MATLAB.
 
 
-🛠️ Tech Stack
+Tech Stack
 
 - Python (Boto3 SDK)
 - AWS EC2
@@ -12,7 +12,7 @@ Architected a fully cloud-native image identification system using Python on Ama
 
 ---
 
-## 📦 Features
+## Features
 
 - Cloud-native architecture 
 - Scalable and reusable workflow 
@@ -21,13 +21,13 @@ Architected a fully cloud-native image identification system using Python on Ama
 
 ---
 
-## 📊 Example Output
+## Example Output
 Object: Person | Confidence: 98.7%
 Object: Car | Confidence: 95.3%
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. AWS Setup
 - Create an S3 bucket 
@@ -35,14 +35,14 @@ Object: Car | Confidence: 95.3%
 - Configure IAM roles with access to S3 and Rekognition 
 
 
-🔐 IAM Permissions (Important)
+IAM Permissions (Important)
 Ensure your EC2 role includes:
 AmazonS3FullAccess (or scoped bucket access)
 AmazonRekognitionFullAccess
 
-📈 Future Improvements
+Future Improvements
 Add CI/CD pipeline (GitHub Actions)
 Deploy as serverless (AWS Lambda)
 
-👨‍💻 Author
+Author
 Daniel Bayasgalan
