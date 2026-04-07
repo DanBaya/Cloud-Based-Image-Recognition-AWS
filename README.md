@@ -34,6 +34,8 @@ Object: Car | Confidence: 95.3%
 - Launch an EC2 instance 
 - Configure IAM roles with access to S3 and Rekognition 
 
+Instance type
+t2.micro
 
 IAM Permissions (Important)
 Ensure your EC2 role includes:
